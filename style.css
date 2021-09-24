@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
+body{
+  
+    font-family: 'Montserrat', sans-serif;
+    margin: 00px;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+:root{
+    /* --primary-color:#50DBB4; */
+    /* --primary-color:#03203C; */
+    --primary-color:#538FFB;
+    /* this id for hero 5 */
+    /* --primary-color:#547795; */
+    --dark-gray:#9CA3AF;
+    --off-white:#E5E7EB;
+    ;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+}
+
+.container-center{
+    margin: auto;
+    max-width: 600px;
+
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.link:hover{
+    opacity: 0.8;
+}
+.link-primary{
+    background-color:  var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    margin-left: 0.8rem;
+    margin-right: 0.5rem;
+   
+}
+
+.link-secondary{
+    border: 1px solid;
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    margin-left: 0.5rem;
+    margin-right: 0.8rem;
+
+}
+
+.list-non-bullets {
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0.5rem 0rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-link{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight:bold;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.hero{
+    padding: 2rem;
+    
+}
+
+.hero .hero-img{
+    margin: auto;
+    display: block;
+    max-width: 350px;
+}
+
+.hero .hero-heading{
+    color: var(--dark-gray);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.hero-heading .inverted{
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+a{
+    text-align: center;
+}
+
+.footer{
+    background-color: var(--primary-color);   
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+
+}
+.footer .link{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start:0px;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+.social-icon{
+    
+    height: 2.5rem;
+    width: 2.5rem;
+    opacity: 1;
+}
+
+.social-icon:hover {
+    opacity: 0.9;
+}
