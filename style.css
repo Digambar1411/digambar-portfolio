@@ -194,16 +194,11 @@ hr{
 @media (max-width: 900px) {
     body {
       max-width: 95%;
-      width: auto
+      width:auto;
     }
   
     .section {
       width: auto;
     }
   
-    /* .primary link {
-        max-width:90%;
-        margin: auto;    
-         
-    } */
-  }
+} 
