@@ -61,7 +61,6 @@ body{
     background-color:  var(--primary-color);
     border-radius: 1.1rem;
     color: white;
-    margin: auto;
     padding: 0.6rem;
     
    
@@ -132,9 +131,10 @@ body{
 }
 
 .hero .hero-img{
-    margin: auto;
+    max-width: 80%;
+    width: 350px;
     display: block;
-    width: 400px;
+    margin: auto;
 }
 
 .hero .hero-heading{
@@ -190,3 +190,20 @@ hr{
     margin: 0.7rem 0.5rem;
     border-style: none;
 }
+
+@media (max-width: 900px) {
+    body {
+      max-width: 95%;
+      width: auto
+    }
+  
+    .section {
+      width: auto;
+    }
+  
+    /* .primary link {
+        max-width:90%;
+        margin: auto;    
+         
+    } */
+  }
