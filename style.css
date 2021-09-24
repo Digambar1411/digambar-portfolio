@@ -1,62 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
-
+*{
+    padding: 0rem;
+    margin: 0rem;
+    text-align: center;
+}
+:root{
+    --primary-color:#538FFB;
+    --dark-gray:#9CA3AF;
+    /* --off-white:#E5E7EB; */
+    --off-white:#f3f4ff;
+    
+}
 body{
   
     font-family: 'Montserrat', sans-serif;
-    margin: 00px;
+    margin:0 auto;
+    text-align: center;
+}
+.section{
+    width: 900px;
+    margin: 0 auto;
+    padding: 2.5rem 1rem;
+    border-radius: 1rem;
+
+}
+.section h2{
+    text-align: center;
+   
+}
+.section p{
+    padding-bottom: 1rem;
 }
 
-hr{
-    margin: 2rem 0rem;
-}
-:root{
-    /* --primary-color:#50DBB4; */
-    /* --primary-color:#03203C; */
-    --primary-color:#538FFB;
-    /* this id for hero 5 */
-    /* --primary-color:#547795; */
-    --dark-gray:#9CA3AF;
-    --off-white:#E5E7EB;
-    ;
+.ow{
+    
+    background-color: var(--off-white);
+    
 }
 
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
-   
+      
 }
 
 .container-center{
-    margin: auto;
-    max-width: 600px;
+    margin: 0 auto;
+    /* padding: 1rem 1rem; */
+
 
 }
 
 .link{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 0.7rem;
 
+}
+.link-primary{
+    background-color:  var(--primary-color);
+    border-radius: 1.1rem;
+    color: white;
+    margin: auto;
+    padding: 0.6rem;
+    
+   
 }
 
 .link:hover{
     opacity: 0.8;
 }
-.link-primary{
-    background-color:  var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
-    margin-left: 0.8rem;
-    margin-right: 0.5rem;
-   
+.project-date{
+    text-align: center;
+    padding-left: 1rem;
+    padding-top: 0.6rem;
+    margin-bottom: 1rem;
+
 }
 
 .link-secondary{
     border: 1px solid;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     color: var(--primary-color);
-    margin-left: 0.5rem;
-    margin-right: 0.8rem;
-
+    margin-left: 0.6rem;
+    padding: 0.5rem;
+   
+    
 }
 
 .list-non-bullets {
@@ -71,7 +99,10 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
     border-bottom-left-radius: 1rem;
     
 }
@@ -90,17 +121,19 @@ hr{
 .navigation .nav-brand{
     font-weight: bold;
     font-size: 1.1rem;
+    text-align: left;
+   
 }
 
 .hero{
-    padding: 2rem;
+    padding: 3.5rem;
     
 }
 
 .hero .hero-img{
     margin: auto;
     display: block;
-    max-width: 350px;
+    width: 400px;
 }
 
 .hero .hero-heading{
@@ -114,33 +147,19 @@ hr{
     text-align: center;
 }
 
-.section{
-    padding: 2rem;
-}
-.section h1{
-    text-align: center;
-}
-
-.ow{
-    background-color: var(--off-white);
-}
-
-a{
-    text-align: center;
-}
-
 .footer{
     background-color: var(--primary-color);   
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top: 2rem;
 }
 
 .footer .footer-header{
     font-size: large;
-    font-weight: bold;
-
+    padding-bottom: 0.7rem;
+    
 }
 .footer .link{
     color:white;
@@ -157,11 +176,16 @@ a{
 
 .social-icon{
     
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2.2rem;
+    width: 2.2rem;
     opacity: 1;
 }
 
 .social-icon:hover {
     opacity: 0.9;
+}
+
+hr{
+    margin: 0.7rem 0.5rem;
+    border-style: none;
 }
