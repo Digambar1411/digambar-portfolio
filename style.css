@@ -7,7 +7,6 @@
 :root{
     --primary-color:#538FFB;
     --dark-gray:#9CA3AF;
-    /* --off-white:#E5E7EB; */
     --off-white:#f3f4ff;
     
 }
@@ -47,8 +46,6 @@ body{
 
 .container-center{
     margin: 0 auto;
-    /* padding: 1rem 1rem; */
-
 
 }
 
@@ -63,7 +60,6 @@ body{
     color: white;
     padding: 0.6rem;
     
-   
 }
 
 .link:hover{
@@ -83,8 +79,7 @@ body{
     color: var(--primary-color);
     margin-left: 0.6rem;
     padding: 0.5rem;
-   
-    
+     
 }
 
 .list-non-bullets {
@@ -197,8 +192,8 @@ hr{
       width:auto;
     }
   
-    .section {
-      width: auto;
+    .section{
+      width: auto; 
     }
   
 } 
